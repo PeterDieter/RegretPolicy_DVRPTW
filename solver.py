@@ -170,7 +170,7 @@ if __name__ == "__main__":
     parser.add_argument("--instance_seed", type=int, default=1, help="Seed to use for the dynamic instance")
     parser.add_argument("--solver_seed", type=int, default=1, help="Seed to use for the solver")
     parser.add_argument("--static", action='store_true', help="Add this flag to solve the static variant of the problem (by default dynamic)")
-    parser.add_argument("--epoch_tlim", type=int, default=3*60, help="Time limit per epoch")
+    parser.add_argument("--epoch_tlim", type=int, default=20, help="Time limit per epoch")
     parser.add_argument("--tmp_dir", type=str, default=None, help="Provide a specific directory to use as tmp directory (useful for debugging)")
     parser.add_argument("--verbose", action='store_true', help="Show verbose output")
     args = parser.parse_args()
