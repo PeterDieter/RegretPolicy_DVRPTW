@@ -1,4 +1,4 @@
-# RegretPolicy_DVRPTW
+# A regret policy for the DVRPTW
 
 This repository includes a regret policy for the dynamic vehicle routing problem with time windows (DVRPTW), which has been developed for the EURO meets NeurIPS Vehicle Routing Challenge.
 The proposed policy is to be found in baselines/strategies/_strategies.py.
